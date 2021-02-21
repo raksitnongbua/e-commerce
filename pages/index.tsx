@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
+import { Button } from '@material-ui/core';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
           <p className='text-6xl text-red-500 m-2 text-center'>TANTOSA SHOP</p>
         </div>
       </div>
+      <button className='btn btn-blue'>Test</button>
     </Layout>
   );
 };
