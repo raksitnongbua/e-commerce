@@ -9,7 +9,7 @@ const Home = () => {
     <Layout>
       <div className='container mx-auto'>
         <div className='flex-1 my-2 p-2'>
-          <p className='text-6xl text-red-400 m-2 text-center'>TANTOSA</p>
+          <p className='text-6xl text-red-500 m-2 text-center'>TANTOSA SHOP</p>
         </div>
       </div>
     </Layout>
