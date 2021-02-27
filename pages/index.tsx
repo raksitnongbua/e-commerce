@@ -13,17 +13,16 @@ const Home = () => {
           <p className='text-6xl text-red-500 m-2 text-center'>TANTOSA SHOP</p>
         </div>
       </div>
-      <button className='btn btn-blue'>Test</button>
     </Layout>
   );
 };
 export default Home;
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   const allPostsData = getSortedPostsData();
   return {
     props: {
       allPostsData,
     },
   };
-}
+};
